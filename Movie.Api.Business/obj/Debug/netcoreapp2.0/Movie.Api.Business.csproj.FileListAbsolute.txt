@@ -1,0 +1,4 @@
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.csprojAssemblyReference.cache
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.AssemblyInfoInputs.cache
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.AssemblyInfo.cs
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.csproj.CoreCompileInputs.cache

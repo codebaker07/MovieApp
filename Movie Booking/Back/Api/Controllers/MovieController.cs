@@ -11,9 +11,6 @@ namespace Api.Controllers
     [Route("[controller]")]
     public class MovieController : ControllerBase
     {
-       
-
-       
 
         public MovieController()
         {

@@ -1,0 +1,9 @@
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Contracts\bin\Debug\netcoreapp2.0\Movie.Api.Contracts.deps.json
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Contracts\bin\Debug\netcoreapp2.0\Movie.Api.Contracts.dll
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Contracts\bin\Debug\netcoreapp2.0\Movie.Api.Contracts.pdb
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Contracts\obj\Debug\netcoreapp2.0\Movie.Api.Contracts.csprojAssemblyReference.cache
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Contracts\obj\Debug\netcoreapp2.0\Movie.Api.Contracts.AssemblyInfoInputs.cache
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Contracts\obj\Debug\netcoreapp2.0\Movie.Api.Contracts.AssemblyInfo.cs
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Contracts\obj\Debug\netcoreapp2.0\Movie.Api.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Contracts\obj\Debug\netcoreapp2.0\Movie.Api.Contracts.dll
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Contracts\obj\Debug\netcoreapp2.0\Movie.Api.Contracts.pdb
