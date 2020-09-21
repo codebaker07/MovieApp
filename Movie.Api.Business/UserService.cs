@@ -1,40 +1,40 @@
 ﻿using Movie.Api.Business.Interfaces;
 using Movie.Api.Contracts;
-using Movie.Api.Data;
-using Movie.Api.Data.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Movie.Api.Business
 {
     public class UserService : IUserService
     {
-        public UserService(IAuthUnitOfWork unit) => _unitOfWork = unit;
-
-        private IAuthUnitOfWork _unitOfWork { get; }
-
-        public IEnumerable<User> GetUsers() => _unitOfWork.Users.GetAll();
-
         public void AddUser(User user)
         {
-            _unitOfWork.Users.Add(user);
-            _unitOfWork.Complete();
+            throw new NotImplementedException();
+        }
+
+        public void bookmovie(MovieEntity movie)
+        {
+            throw new NotImplementedException();
+        }
+
+        public User GetUserByEmail(string email)
+        {
+            throw new NotImplementedException();
         }
 
         public User GetUserById(long userId)
         {
-            return _unitOfWork.Users.Get(userId);
+            throw new NotImplementedException();
         }
 
-        public User GetUserByEmail(string userEmail)
+        public IList<User> GetUsers()
         {
-            return _unitOfWork.Users.SingleOrDefault(user=>user.UserEmail == userEmail);
+            throw new NotImplementedException();
         }
 
         public User IsValidCredential(string userEmail, string password)
         {
-            return _unitOfWork.Users.SingleOrDefault(user => user.UserEmail == userEmail && user.Password == password);
+            throw new NotImplementedException();
         }
     }
 }

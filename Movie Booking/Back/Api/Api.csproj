@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Movie.Api.Business\Movie.Api.Business.csproj" />
+    <ProjectReference Include="..\..\..\Movie.Api.Contracts\Movie.Api.Contracts.csproj" />
+  </ItemGroup>
+
 
 </Project>

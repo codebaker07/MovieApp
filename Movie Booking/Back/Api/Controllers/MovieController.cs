@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Movie.Api.Business.Interfaces;
+using Movie.Api.Contracts;
 
 namespace Api.Controllers
 {
@@ -11,12 +13,19 @@ namespace Api.Controllers
     [Route("[controller]")]
     public class MovieController : ControllerBase
     {
-
-        public MovieController()
+        private ILogger _logger;
+        private IMovieService _service;
+        public MovieController(ILogger<MovieController> logger, IMovieService service)
         {
-           
+            _logger = logger;
+            _service = service;
         }
 
-       
+        [HttpGet("/api/movies")]
+        public ActionResult<List<MovieEntity>> GetMovies()
+        {
+            return _service.GetMovies();
+        }
+
     }
 }

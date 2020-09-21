@@ -7,10 +7,11 @@ namespace Movie.Api.Business.Interfaces
 {
     public interface IUserService
     {
-        IEnumerable<User> GetUsers();
-        void AddUser(User movie);
+        IList<User> GetUsers();
+        void AddUser(User user);
         User GetUserById(long userId);
         User GetUserByEmail(string email);
         User IsValidCredential(string userEmail, string password);
+        void bookmovie(MovieEntity movie);
     }
 }

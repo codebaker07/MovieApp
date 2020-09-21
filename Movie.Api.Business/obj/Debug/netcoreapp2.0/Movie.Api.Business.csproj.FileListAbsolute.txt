@@ -2,3 +2,11 @@ C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp
 C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.AssemblyInfoInputs.cache
 C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.AssemblyInfo.cs
 C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.csproj.CoreCompileInputs.cache
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\bin\Debug\netcoreapp2.0\Movie.Api.Business.deps.json
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\bin\Debug\netcoreapp2.0\Movie.Api.Business.dll
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\bin\Debug\netcoreapp2.0\Movie.Api.Business.pdb
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\bin\Debug\netcoreapp2.0\Movie.Api.Contracts.dll
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\bin\Debug\netcoreapp2.0\Movie.Api.Contracts.pdb
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.csproj.CopyComplete
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.dll
+C:\Users\Satish\Desktop\Project\Solution\Movie.Api.Business\obj\Debug\netcoreapp2.0\Movie.Api.Business.pdb

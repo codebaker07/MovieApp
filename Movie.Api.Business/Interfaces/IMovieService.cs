@@ -8,7 +8,8 @@ namespace Movie.Api.Business.Interfaces
 {
     public interface IMovieService
     {
-        IEnumerable<MovieEntity> GetMovies(string searchType);
+         List<MovieEntity> GetMovies();
+        
        
     }
 }

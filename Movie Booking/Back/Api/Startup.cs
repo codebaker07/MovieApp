@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Movie.Api.Business.Interfaces;
+using Movie.Api.Business;
 
 namespace Api
 {
@@ -26,6 +28,7 @@ namespace Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSingleton<IMovieService, MovieService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

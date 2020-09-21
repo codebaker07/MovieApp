@@ -26,7 +26,14 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Business\\Movie.Api.Business.csproj": {
+                "projectPath": "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Business\\Movie.Api.Business.csproj"
+              },
+              "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Contracts\\Movie.Api.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Contracts\\Movie.Api.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -55,6 +62,136 @@
               "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Business\\Movie.Api.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Business\\Movie.Api.Business.csproj",
+        "projectName": "Movie.Api.Business",
+        "projectPath": "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Business\\Movie.Api.Business.csproj",
+        "packagesPath": "C:\\Users\\Satish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Satish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Contracts\\Movie.Api.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Contracts\\Movie.Api.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "System.Runtime.Serialization.Formatters": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Contracts\\Movie.Api.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Contracts\\Movie.Api.Contracts.csproj",
+        "projectName": "Movie.Api.Contracts",
+        "projectPath": "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Contracts\\Movie.Api.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Satish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Satish\\Desktop\\Project\\Solution\\Movie.Api.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Satish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
