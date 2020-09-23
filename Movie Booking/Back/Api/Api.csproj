@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Owin.Security.OAuth" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\..\Movie.Api.Business\Movie.Api.Business.csproj" />
     <ProjectReference Include="..\..\..\Movie.Api.Contracts\Movie.Api.Contracts.csproj" />
   </ItemGroup>

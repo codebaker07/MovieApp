@@ -21,8 +21,6 @@ C:\Users\Satish\Desktop\maersk\Solution\Movie Booking\Back\Api\obj\Debug\netcore
 C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.csprojAssemblyReference.cache
 C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfoInputs.cache
 C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfo.cs
-C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.csproj.CoreCompileInputs.cache
-C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.dll
 C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.pdb
 C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -48,3 +46,9 @@ C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcor
 C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.Manifest.cache
 C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.xml
 C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.genruntimeconfig.cache
+C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\bin\Debug\netcoreapp3.1\Microsoft.Owin.dll
+C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.dll
+C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\bin\Debug\netcoreapp3.1\Owin.dll
+C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.csproj.CoreCompileInputs.cache
+C:\Users\Satish\Desktop\Project\Solution\Movie Booking\Back\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cache

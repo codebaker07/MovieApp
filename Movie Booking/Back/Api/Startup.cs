@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Movie.Api.Business.Interfaces;
 using Movie.Api.Business;
+using Microsoft.Owin.Security.OAuth;
 
 namespace Api
 {
@@ -27,13 +28,24 @@ namespace Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+       
             services.AddControllers();
             services.AddSingleton<IMovieService, MovieService>();
-        }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+
+        }
+       
+
+            // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors(builder =>
+            {
+                builder.AllowAnyOrigin();
+                builder.AllowAnyMethod();
+                builder.AllowAnyHeader();
+            });
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -49,6 +61,11 @@ namespace Api
             {
                 endpoints.MapControllers();
             });
+    //        app.UseCors(
+    //    options => options.WithOrigins("http://localhost:5000").AllowAnyMethod()
+    //);
+    //        _ = app.UseMvc();
+
         }
     }
 }

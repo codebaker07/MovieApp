@@ -24,7 +24,7 @@ namespace Api.Controllers
         [HttpGet("/api/movies")]
         public ActionResult<List<MovieEntity>> GetMovies()
         {
-            return _service.GetMovies();
+            return Ok(_service.GetMovies());
         }
 
     }
